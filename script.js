@@ -11,16 +11,23 @@ class Car{
         this.year=year;
         this.color=color;
     }
+    //getMake method to get car make 
     getMake  () {
         return Car.make;
         
     }
+
+    // getModel method to get car model 
     getModel(){
         return Car.model;
     }
+    
+    //getYear mothod to get car Year 
     getYear(){
         return Car.year ;
     }
+
+    // getColor method for car color 
     getColor(){
         return Car.color;
     }
