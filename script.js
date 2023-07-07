@@ -3,6 +3,29 @@
 // 2. Model
 // 3. Year
 // 4. Color
+
+class Car{
+    constructor(make,model,year,color){
+        this.make= make;
+        this.model=model;
+        this.year=year;
+        this.color=color;
+    }
+    getMake  () {
+        return Car.make;
+        
+    }
+    getModel(){
+        return Car.model;
+    }
+    getYear(){
+        return Car.year ;
+    }
+    getColor(){
+        return Car.color;
+    }
+
+}
 // Finally, make sure to add 4 methods (getMake, getModel, getYear, and getColor) that return the car's respective properties
 // (This is called a 'getter' in Object Oriented Programming)
 
